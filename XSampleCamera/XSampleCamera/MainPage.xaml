@@ -4,8 +4,11 @@
              xmlns:local="clr-namespace:XSampleCamera"
              x:Class="XSampleCamera.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout Padding="20" Spacing="15">
+        <Label Text="Welcome to Xamarin Forms!" 
+            VerticalOptions="Center" />
 
+        <Button x:Name="btn1" Text="This is Button"
+            VerticalOptions="Center" />
+    </StackLayout>
 </ContentPage>

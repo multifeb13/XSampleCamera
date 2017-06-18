@@ -16,6 +16,7 @@ Global
 		XSampleCamera\XSampleCamera\XSampleCamera.projitems*{4f41a487-cb9b-4bbe-9e00-a90a13fbb244}*SharedItemsImports = 4
 		XSampleCamera\XSampleCamera\XSampleCamera.projitems*{6886f209-ea87-48a5-b93c-92d468465c4c}*SharedItemsImports = 13
 		XSampleCamera\XSampleCamera\XSampleCamera.projitems*{828fd9c3-ee59-459d-b254-dbf6eecfac23}*SharedItemsImports = 4
+		XSampleCamera\XSampleCamera\XSampleCamera.projitems*{e65eb6a5-3c53-46f4-a99d-8fb929627dd3}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

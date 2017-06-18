@@ -12,9 +12,9 @@ namespace XSampleCamera
 		public App ()
 		{
 			InitializeComponent();
-
-			MainPage = new XSampleCamera.MainPage();
-		}
+            Plugin.Media.CrossMedia.Current.Initialize( );
+            MainPage = new XSampleCamera.MainPage();
+        }
 
 		protected override void OnStart ()
 		{

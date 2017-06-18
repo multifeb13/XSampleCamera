@@ -7,6 +7,9 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
+[assembly: UsesFeature( "android.hardware.camera", Required = false )]
+[assembly: UsesFeature( "android.hardware.camera.autofocus", Required = false )]
+
 namespace XSampleCamera.Droid
 {
 	[Activity (Label = "XSampleCamera", Icon = "@drawable/icon", Theme="@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -22,6 +25,11 @@ namespace XSampleCamera.Droid
 			global::Xamarin.Forms.Forms.Init (this, bundle);
 			LoadApplication (new XSampleCamera.App ());
 		}
-	}
+
+        public override void OnRequestPermissionsResult( int requestCode, string[] permissions, Permission[] grantResults )
+        {
+            //PermissionsImplementation.Current.OnRequestPermissionsResult( requestCode, permissions, grantResults );
+        }
+    }
 }
 
